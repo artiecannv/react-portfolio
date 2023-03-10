@@ -7,8 +7,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <Navbar />
       <Header />
+      <Navbar />
       <Project />
       <Footer />
     </div>
@@ -16,4 +16,3 @@ function App() {
 }
 
 export default App;
-
