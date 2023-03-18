@@ -8,7 +8,7 @@ const About = (props) => {
   return (
     <section className="about-container">
       <div>
-        <h2>About Me:</h2>
+        <h1>About Me:</h1>
         <div>
           <img src={Me} className="myPhoto" alt="myPhoto" />
         </div>
