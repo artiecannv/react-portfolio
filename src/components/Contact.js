@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import { validateEmail } from "../utils/emailValidate.js";
 
-const ContactForm = (props) => {
+const Contact = (props) => {
   const { setContactSelected } = props;
   return (
     <div>
@@ -12,4 +13,4 @@ const ContactForm = (props) => {
   );
 };
 
-export default ContactForm;
+export default Contact;

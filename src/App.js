@@ -1,31 +1,46 @@
 import React, { useState } from "react";
-
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+  createRoutesFromElements,
+  Outlet,
+} from "react-router-dom";
 import Header from "./components/Header";
+import Home from "./components/Home";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import ContactForm from "./components/ContactForm";
+import Contact from "./components/Contact";
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  console.log(contactSelected);
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Root />}>
+        <Route path="home" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="projects" element={<Project />} />
+        <Route path="contact" element={<Contact />} />
+      </Route>
+    )
+  );
 
   return (
     <div>
-      <Header />
-      {!contactSelected ? (
-        <>
-          <About setContactSelected={setContactSelected} />
-        </>
-      ) : (
-        <>
-          <ContactForm setContactSelected={setContactSelected} />
-        </>
-      )}
-      <Project />
-      <Footer />
+     <RouterProvider router={router} />
     </div>
   );
+}
+
+const Root = () => {
+  return (
+    <>
+    <Header />
+    <Home />
+    <Footer />
+    </>
+  )
 }
 
 export default App;
