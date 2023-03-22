@@ -2,11 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    background-color: #2D3047;
-    color: white;
-}
-
-.header {
-    background-color: #0077B6;
-}

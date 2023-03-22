@@ -5,12 +5,10 @@ const Contact = (props) => {
   const { setContactSelected } = props;
   return (
     <div>
-      <h1>Contact Form</h1>
-      <button onClick={() => setContactSelected(false)}>
-        Go to about page
-      </button>
+      <h1>Work with me!</h1>
     </div>
   );
 };
 
 export default Contact;
+

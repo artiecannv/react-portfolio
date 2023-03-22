@@ -35,11 +35,11 @@ function App() {
 
 const Root = () => {
   return (
-    <>
+    <main className="text-gray-400 bg-gray-900 body-font">
     <Header />
     <Home />
     <Footer />
-    </>
+    </main>
   )
 }
 
