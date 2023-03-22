@@ -1,43 +1,32 @@
 import React, { useState } from "react";
 import Me from "../assets/me.jpg";
+import { Link } from "react-router-dom";
 
-const About = (props) => {
-  const { contactSelected, setContactSelected } = props;
-  console.log(contactSelected);
-
+const About = () => {
   return (
-    <section className="about-container">
-      <div>
-        <h1>About Me:</h1>
-        <div>
-          <img src={Me} className="myPhoto" alt="myPhoto" />
+    <section id="about">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          {/* TODO: Make/get 5 tally mark logo for this */}
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            I'm Arthur Cann the Fifth
+            <br className="hidden lg:inline-block" /> I'm passionate for
+            creating clean and cool applications.
+          </h1>
+          <p className="mb-8 leading-relaxed"></p>
+          {/* Link to Contact & Project Pages */}
+          <div className="flex justify-center">
+            <Link to="/projects">See my Work</Link>
+            <Link to="/contact">Work with Me</Link>
+          </div>
         </div>
-        <p>
-          Hey! I'm Artie. I am a training coordinator currently, but I am
-          branching out my career path to involve Web Development.
-        </p>
-        <p>
-          I have found a passion for front-end development, I love to style and
-          build nice and responsive pages.
-        </p>
-        <h3>Technologies I am profiecient with:</h3>
-        <ul className="tech-prof">
-          <li>HTML5, CSS and JavaScript</li>
-          <li>React</li>
-          <li>GitHub</li>
-        </ul>
-        <h3>Technologies I have been exposed to:</h3>
-        <ul className="tech-learn">
-          <li>Node</li>
-          <li>Express</li>
-          <li>SQL/NoSQL</li>
-          <li>jQuery</li>
-        </ul>
-        <h3>Education:</h3>
-        <ul>
-          <li> University of Denver - Full Stack Coding Certificate</li>
-        </ul>
-        <button onClick={() => setContactSelected(true)}>Contact Me</button>
+      </div>
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img
+          src={Me}
+          className="object-cover object-center rounded"
+          alt="myPhoto"
+        />
       </div>
     </section>
   );
