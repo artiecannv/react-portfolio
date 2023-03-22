@@ -1,10 +1,5 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import mock1 from "../assets/projects/mock1.png";
-import mock2 from "../assets/projects/mock2.png";
-import mock3 from "../assets/projects/mock3.png";
-import mock4 from "../assets/projects/mock4.png";
-import mock5 from "../assets/projects/mock5.png";
 import { projects } from "../data";
 
 const Project = () => {
@@ -22,12 +17,8 @@ const Project = () => {
         </div>
         {/* Card templates for projects, easily updatable */}
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4"
-            >
+          {projects.map((project, i) => (
+            <a href={project.link} key={i} className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"

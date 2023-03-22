@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "JQuery, Mapbox, TurfJS",
     description:
       "Put any two addresses in the united states into the map, the application will find a point in the middle of the two addresses. Meet up locations listed also!",
-    image: { mock1 },
+    image: mock1,
     link: "https://artiecannv.github.io/mark-me-in-the-middle/",
   },
   {
@@ -20,14 +20,14 @@ export const projects = [
     subtitle: "Node, ExpressJS, MySQL",
     description:
       "Table-based board game scheduling application so you can meetup with friends and make new ones to play your favorite games",
-    image: { mock2 },
+    image: mock2,
     link: "https://the-table-app.herokuapp.com/",
   },
   {
     title: "Coding Quiz",
     subtitle: "HTML, CSS, JavaScript",
     description: "Timed quiz with basic programming language questions.",
-    image: { mock3 },
+    image: mock3,
     link: "https://artiecannv.github.io/coding-quiz/",
   },
   {
@@ -35,7 +35,7 @@ export const projects = [
     subtitle: "Inquirer, MySQL, dotenv",
     description:
       "Tracks employees from multiple departments with this application. Use this to keep track of an entire department, or designate a manager for specific employees",
-    image: { mock4 },
+    image: mock4,
     link: "https://drive.google.com/file/d/13CbBjpGMECgOoepiMPLEZvinNHJeq87F/view",
   },
   {
@@ -43,7 +43,7 @@ export const projects = [
     subtitle: "MERN Stack, React",
     description:
       "Project currently in progress, will be updated with completed project link",
-    image: { wip },
+    image: wip,
   },
 ];
 

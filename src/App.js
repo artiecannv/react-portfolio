@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-  createRoutesFromElements,
-  Outlet,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Project from "./components/Project";
@@ -15,32 +8,39 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Root />}>
-        <Route path="home" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="projects" element={<Project />} />
-        <Route path="contact" element={<Contact />} />
-      </Route>
-    )
-  );
+  // const router = createBrowserRouter(
+  //   createRoutesFromElements(
+  //     <Route path="/" element={<Root />}>
+  //       <Route path="home" element={<Home />} />
+  //       <Route path="about" element={<About />} />
+  //       <Route path="projects" element={<Project />} />
+  //       <Route path="contact" element={<Contact />} />
+  //     </Route>
+  //   )
+  // );
 
   return (
-    <div>
-     <RouterProvider router={router} />
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
-const Root = () => {
-  return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-    <Header />
-    <Home />
-    <Footer />
-    </main>
-  )
-}
+// const Root = () => {
+//   return (
+//     <main className="text-gray-400 bg-gray-900 body-font">
+//       <Header />
+//       <Home />
+//       <Footer />
+//     </main>
+//   );
+// };
 
 export default App;
