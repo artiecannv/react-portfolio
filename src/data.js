@@ -19,8 +19,7 @@ export const projects = [
     description:
       "Table-based board game scheduling application so you can meetup with friends and make new ones to play your favorite games",
     image: { mock2 },
-    link: "https://the-table-app.herokuapp.com/",
-  },
+    link: "https://the-table-app.herokuapp.com/",  },
   {
     title: "Coding Quiz",
     subtitle: "HTML, CSS, JavaScript",
