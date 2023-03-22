@@ -20,6 +20,7 @@ const Project = () => {
             Basic text to fill the content space for right now
           </p>
         </div>
+        {/* Card templates for projects, easily updatable */}
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
