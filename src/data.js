@@ -4,6 +4,8 @@ import mock3 from "../src/assets/projects/mock3.png";
 import mock4 from "../src/assets/projects/mock4.png";
 import wip from "../src/assets/projects/wip.png";
 
+// Project Data
+
 export const projects = [
   {
     title: "Mark Me in the Middle",
@@ -19,7 +21,8 @@ export const projects = [
     description:
       "Table-based board game scheduling application so you can meetup with friends and make new ones to play your favorite games",
     image: { mock2 },
-    link: "https://the-table-app.herokuapp.com/",  },
+    link: "https://the-table-app.herokuapp.com/",
+  },
   {
     title: "Coding Quiz",
     subtitle: "HTML, CSS, JavaScript",
@@ -42,4 +45,19 @@ export const projects = [
       "Project currently in progress, will be updated with completed project link",
     image: { wip },
   },
+];
+
+// Skills Data
+
+export const skills = [
+  "GitHub",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Node",
+  "ExpressJS",
+  "MySQL",
+  "JQuery",
+  "MERN Stack",
 ];
