@@ -8,16 +8,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 function App() {
-  // const router = createBrowserRouter(
-  //   createRoutesFromElements(
-  //     <Route path="/" element={<Root />}>
-  //       <Route path="home" element={<Home />} />
-  //       <Route path="about" element={<About />} />
-  //       <Route path="projects" element={<Project />} />
-  //       <Route path="contact" element={<Contact />} />
-  //     </Route>
-  //   )
-  // );
 
   return (
     <Router>
