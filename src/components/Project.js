@@ -5,7 +5,7 @@ import { projects } from "../data";
 
 const Project = () => {
   return (
-    <section id="projectSecton" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projectSecton" className="text-gray-400 bg-gray-700 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           {/* Imported icon from HeroIcons */}

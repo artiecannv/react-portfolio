@@ -4,7 +4,6 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <div className='header'>
-      <h1>Arthur Cann V</h1>
       <Navbar />
     </div>
   );
