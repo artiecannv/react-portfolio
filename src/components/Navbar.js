@@ -26,7 +26,7 @@ const Navbar = () => {
           </a>
           <a
             href="/contact"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-5 focus:outline-none hover:bg-gray-700 hover:text-blue-400 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-blue-400 rounded text-base mt-4 md:mt-0"
           >
             Work with Me
             <MailIcon className="w-4 h-4 ml-1" />
@@ -34,7 +34,7 @@ const Navbar = () => {
           <a
             href="https://docs.google.com/document/d/109DQehfUgqW_FyFYlUoVQbzJCaZR3DTM5gJ3Vp0mMwM/edit?usp=sharing"
             target="_blank"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-5 focus:outline-none hover:bg-gray-700 hover:text-red-400 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-red-400 rounded text-base mt-4 md:mt-0"
           >
             Resume
             <MailIcon className="w-4 h-4 ml-1" />
