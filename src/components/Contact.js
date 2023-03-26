@@ -1,6 +1,6 @@
 //! TODO: Contact page not functional currently
 
-import React, { useState } from "react";
+import React from "react";
 
 const Contact = () => {
   return (

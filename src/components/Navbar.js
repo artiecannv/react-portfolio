@@ -1,4 +1,3 @@
-import { UserIcon } from "@heroicons/react/solid";
 import { MailIcon } from "@heroicons/react/solid";
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
