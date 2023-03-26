@@ -16,14 +16,14 @@ const Navbar = () => {
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-1 flex items-center text-base justify-between">
           <a
             href="/projects"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-blue-300 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-green-400 rounded text-base mt-4 md:mt-0"
           >
             Projects
-            <CodeIcon className=" hover:text-green-400 w-4 h-4 ml-1" />
+            <CodeIcon className="w-4 h-4 ml-1" />
           </a>
           <a
             href="/contact"
-            className="inline-flex items-center bg-gray-800 border-0 py-1 px-5 focus:outline-none hover:bg-gray-700 hover:text-blue-300 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-5 focus:outline-none hover:bg-gray-700 hover:text-blue-400 rounded text-base mt-4 md:mt-0"
           >
             Work with Me
             <MailIcon className="w-4 h-4 ml-1" />

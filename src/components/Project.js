@@ -2,20 +2,16 @@ import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
-
 const Project = () => {
   return (
     <section id="projectSecton" className="text-gray-400 bg-gray-700 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           {/* Imported icon from HeroIcons */}
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <CodeIcon className=" text-green-500 mx-auto inline-block h-10 w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-green-500 underline">
             Applications I've Built:
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Basic text to fill the content space for right now
-          </p>
         </div>
         {/* Card templates for projects, easily updatable */}
         <div className="flex flex-wrap -m-4">

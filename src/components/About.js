@@ -18,19 +18,19 @@ const About = () => {
             clean, and effiecient product is delivered to users, as I am quite
             the web user myself!
           </p>
-          < Skills />
+          <Skills />
           <div className="flex justify-center">
             <a
               href="/contact"
-              className="inline-flex text-gray-800 bg-green-500 border-0 py-2 px-6 focus:outline-none hover:drop-shadow-xl hover:text-white hover:bg-green-600 rounded text-lg"
+              className="inline-flex text-gray-800 bg-blue-400 border-0 py-2 px-6 focus:outline-none hover:drop-shadow-xl hover:text-white hover:bg-blue-500 rounded text-lg"
             >
-              Work With Me
+              Work With Me?
             </a>
             <a
               href="/projects"
-              className="ml-4 inline-flex text-gray-800 bg-blue-400 border-0 py-2 px-6 focus:outline-none hover:drop-shadow-xl hover:bg-blue-500 hover:text-white rounded text-lg"
+              className="ml-4 inline-flex text-gray-800 bg-green-400 border-0 py-2 px-6 focus:outline-none hover:drop-shadow-xl hover:bg-green-500 hover:text-white rounded text-lg"
             >
-              See My Past Work
+              See My Projects!
             </a>
           </div>
         </div>
