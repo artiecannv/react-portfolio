@@ -1,3 +1,5 @@
+//! TODO: Contact page not functional currently
+
 import React, { useState } from "react";
 
 const Contact = () => {
