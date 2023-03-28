@@ -1,7 +1,6 @@
 import { MailIcon } from "@heroicons/react/solid";
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -33,6 +32,7 @@ const Navbar = () => {
           <a
             href="https://docs.google.com/document/d/109DQehfUgqW_FyFYlUoVQbzJCaZR3DTM5gJ3Vp0mMwM/edit?usp=sharing"
             target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-red-400 rounded text-base mt-4 md:mt-0"
           >
             Resume
