@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c3cebca1.css",
+    "main.js": "/react-portfolio/static/js/main.9a29b09b.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/mock1.png": "/react-portfolio/static/media/mock1.3e3a999e9d18cc7c7264.png",
+    "static/media/mock2.png": "/react-portfolio/static/media/mock2.5cdb237afa20f6c7ad83.png",
+    "static/media/me.jpg": "/react-portfolio/static/media/me.53c8a29924e2bb8d94ab.jpg",
+    "static/media/wip.png": "/react-portfolio/static/media/wip.462f26330ad7724ece2f.png",
+    "static/media/mock4.png": "/react-portfolio/static/media/mock4.d4a06b3771771b3c3dee.png",
+    "static/media/mock3.png": "/react-portfolio/static/media/mock3.e10355d1b45b191168ea.png",
+    "static/media/github-icon.svg": "/react-portfolio/static/media/github-icon.f53a84026c87917bd58fcaab9a6141ea.svg",
+    "static/media/twitter-icon.svg": "/react-portfolio/static/media/twitter-icon.7be3df861ed101d9d5086beda88bd64e.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/linkedin-icon.svg": "/react-portfolio/static/media/linkedin-icon.48a33546db06c11b2f79f9d24188bf23.svg",
+    "main.c3cebca1.css.map": "/react-portfolio/static/css/main.c3cebca1.css.map",
+    "main.9a29b09b.js.map": "/react-portfolio/static/js/main.9a29b09b.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3cebca1.css",
+    "static/js/main.9a29b09b.js"
+  ]
+}
