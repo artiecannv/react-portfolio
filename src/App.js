@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/react-portfolio" element={<About />} />
-        <Route path="/react-portfolio/projects" element={<Project />} />
-        <Route path="/react-portfolio/contact" element={<Contact />} />
+        <Route path="/" element={<About />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
