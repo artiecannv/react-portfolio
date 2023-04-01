@@ -37,5 +37,6 @@ https://github.com/artiecannv/react-portfolio
     <li>Make 'Skills' component a little more size friendly</li>
     <li>Apply a motion background to the entire application</li>
     <li>Design favicon and logo for navbar</li>
+    <li>Add button either on hover or just underneath each project that is a path that goes to the GitHub Repository</li>
     <li>Continue to update with new projects!</li>
 </ul>
