@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 import githubIcon from "../assets/icons/github-icon.svg";
 import twitterIcon from "../assets/icons/twitter-icon.svg";
 import linkedinIcon from "../assets/icons/linkedin-icon.svg";
