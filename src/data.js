@@ -2,6 +2,7 @@ import mock1 from "../src/assets/projects/mock1.png";
 import mock2 from "../src/assets/projects/mock2.png";
 import mock3 from "../src/assets/projects/mock3.png";
 import mock4 from "../src/assets/projects/mock4.png";
+import mock5 from "../src/assets/projects/mock5.png";
 import wip from "../src/assets/projects/wip.png";
 
 // Project Data
@@ -39,8 +40,16 @@ export const projects = [
     link: "https://drive.google.com/file/d/13CbBjpGMECgOoepiMPLEZvinNHJeq87F/view",
   },
   {
+    title: "The Scribe",
+    subtitle: "React, Material UI, GraphQL",
+    description:
+      "Multi-page social media style application targetting hosts of the tabletop games.",
+    image: mock5,
+    link: "https://the-scribe.herokuapp.com/",
+  },
+  {
     title: "Work in Progress",
-    subtitle: "MERN Stack, React",
+    subtitle: "WIP",
     description:
       "Project currently in progress, will be updated with completed project link",
     image: wip,
